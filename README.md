@@ -1,15 +1,15 @@
-# Lit-html examples
-Repository with examples and design patterns for building web components using the LitElement base class, and rendering templates using lit-html.
+# Примеры Lit-html
+Репозиторий с примерами и шаблонами проектирования для создания веб-компонентов с использованием базового класса LitElement и создание шаблонов с использованием lit-html.
 
-# Who is this for?
-This repository is intended as a starting point for all people who want to write web components with LitElement. Some special sections are added for people migrating from PolymerElement.
+# Для кого?
+Этот репозиторий можно рассматривать отправной точкой для всех людей, которые хотят писать веб-компоненты с помощью LitElement. Есть и специальны разделы для тех, кто ранее работал с PolymerElement
 
-# How to use the examples
-You can view the code of the examples by browsing through the src folder on github. The examples are divided into categories of complexity, and are ordered. Concepts are introduced one by one, so that you only see one new concept per example.
+# Как использовать
+Исходный код примеров находится в папке src. Примеры делятся на категории сложности и упорядочены. Понятия вводятся один за другим, только по одному новому понятию на пример.
 
-All the examples are working code, so you can clone the repository and run `npm install` + `npm start`.
+Все примеры - это рабочий код, поэтому можно клонировать репозиторий и запускать `npm install` +` npm start`.
 
-# Frequently asked questions
+# Часто задаваемые вопросы
 People starting with LitElement, especially those coming from PolymerElement, often have these questions:
 * How to set default properties:
   * https://github.com/LarsDenBakker/lit-html-examples/blob/master/src/1-basic/04-default-property.js
@@ -29,16 +29,16 @@ People starting with LitElement, especially those coming from PolymerElement, of
 * How to separate CSS, HTML and JS in different files:
   * https://github.com/LarsDenBakker/lit-html-examples/blob/master/src/3-advanced/09-separate-css-html-js-element.js
 
-# Further reading
+# Дальнейшее чтение
 * Use https://github.com/web-padawan/awesome-lit-html as a starting pointer for further documentation.
 
-# Note
+# Примечание
 This project is a community effort. The authors of this repository are not affiliated with Google or the Polymer team. Because LitElement and lit-html are still in early stages of development, best practices and examples will change and evolve over time.
 
-# Contributing
+# Содействие
 Contributions are appreciated, feel free to submit issues and PRs.
 
-# Examples to be implemented
+# Какие примеры надо сделать
 * subclassing
 * _shouldRender
 * upwards data flow
